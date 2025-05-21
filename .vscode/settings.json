@@ -1,0 +1,10 @@
+{
+    "python.pythonPath": "venv/bin/python", // or "venv\\Scripts\\python.exe" on Windows
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "python.formatting.provider": "black",
+    "editor.formatOnSave": true,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    }
+}
